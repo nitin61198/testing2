@@ -1,0 +1,93 @@
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    /* background-color: red; */
+    height: 12vh;
+    
+}
+.head-top{
+    background-color: rgb(0,125,139);
+    text-align: center;
+    height: 4vh;
+    font-size: 24px;
+    padding-top: 4px;
+    color: white;
+}
+nav{
+    
+    font-size: 25px;
+    /* background-color: pink; */
+} 
+nav h1{
+    font-family: Oswald;
+    margin-left: 175px;
+    padding-top: 13px;
+}
+.bg-image{
+    margin-top: 25px;
+    margin-bottom: 65px;
+}
+.bg-image img{
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+.card{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    
+}
+.cards{
+    width: 300px;
+    height: 380px;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.cards img{
+    width: 290px;
+    height: 300px;
+    display: block;
+    
+}
+.cards p{
+    
+    font-size: 14px;
+    width: 90%;
+    /* border: 1px solid yellow; */
+}
+.cards h6{
+    font-size: 16px;
+    font-weight: bolder;
+}
+@media (max-width:500px){
+    .card{
+        flex-direction: column;
+        row-gap: 17px;
+    }
+    
+}
